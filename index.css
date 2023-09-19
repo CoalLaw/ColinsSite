@@ -1,0 +1,90 @@
+
+:root {
+    --primeColor: rgb(17, 196, 196);
+    --secondaryColor: rgb(235, 44, 133);
+    --highlightColor: #f5e82f;
+}
+
+html {
+    color: var(--highlightColor);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primeColor);
+}
+
+.egg {
+    background-color: var(--primeColor);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--secondaryColor);
+}
+
+.egg h2 {
+    margin: 0px;
+    color: var(--highlightColor);
+}
+.egg img {
+    height: 70px;
+    width: 70px;
+}
+img {
+    background-color: var(--secondaryColor);
+    height: 50px;
+    width: 50px;
+    outline: 0px;
+    border: 0px;
+}
+
+.Bob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primeColor);
+
+}
+
+.Bob p {
+    width: 69%;
+    align-self: flex-start;
+    color: var(--highlightColor);
+}
+
+.Bob img{ 
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 400px;
+}
+
+.Tim {
+    text-align: center;
+}
+
+.Zoda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link {
+    color: var(--secondaryColor);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Tom img {
+    background-color: var(--primeColor);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--secondaryColor);
+}
